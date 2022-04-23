@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@100&family=Roboto+Mono&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bree Serif', serif;
+    color: #ffff;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.espaco-lerf {
+    margin-left: 195px;
+}
+
+/* HOME */
+
+.home-img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.home {
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    min-height: 75vh;
+}
+.logo {
+    display: flex;
+    font-size: 24px;
+    margin-left: 90px;
+}
+.menu-container {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-top: 33px;
+    justify-content: center;
+    position: absolute;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 150px;
+    justify-content: center;
+}
+.menu li {
+    color: #737373;
+}
+.login {
+    display: flex;
+    margin-left: 120px;
+    gap: 45px;
+    align-items: center;
+}
+.login li {
+    color: #FC724D;
+    cursor: pointer;
+}
+.login button,
+.menu-two button {
+    border: none;
+    background: #FC724D;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px 25px;
+    color: white;
+    cursor: pointer;
+}
+.menu-container-two {
+    position: absolute;
+    display: flex;
+    width: 599px;
+    height: 371px;
+    left: 195px;
+    top: 142px;
+}
+.menu-two {
+    position: absolute;
+}
+.menu-two button{
+    padding: 15px 40px;
+    margin-top: 35px;
+}
+.text-online {
+    color: #FC724D;
+}
+.text-hosp {
+    font-size: 58px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.text-smile {
+    margin-bottom: 35px;
+    color: #737373 !important;
+}
+.menu-two button {
+    bottom: 0;
+}
+
+/* SECTION TWO */
+
+.section-two {
+    min-height: 70vh;
+}
+.titulo-two {
+    color: #FC724D;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.text-two {
+    font-size: 40px; 
+    margin-bottom: 10px; 
+}
+.text-two-two {
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+.container-two {
+    margin-left: 200px;
+    margin-top: 180px;
+}
+/* GRID-TWO */
+
+.container-grid {
+    justify-content: center;
+    text-align: left;
+    margin-left: 195px;
+    margin-right: 195px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 80px;
+    padding-bottom: 180px;
+    gap: 30px;
+}
+.img-grid {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.grid-two {
+    padding: 10px;
+    width: 300px;
+    height: 296px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    line-height: 20px;
+}
+.grid-titulo {
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.grid-text {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+.espaco {
+    border: solid 1px #E74040;
+    margin-bottom: 30px;
+    margin-right: 220px;
+}
+.grid-two:hover {
+    box-shadow: 0 0 1em rgb(177, 175, 175);
+}
+
+
+/* theree */
+.section-theree {
+    min-height: 100vh;
+}
+.container-theree {
+    display: flex;
+}
+.text-theree {
+    margin-bottom: 96px;
+}
+.container-img-theree {
+    display: flex;
+    margin-top: 25px;
+    width: 266px;
+    height: 61px;
+    margin-left: 30px;
+    margin-bottom: 55px;
+}
+.container-text-right {
+    margin-left: 30px;
+    width: 407px;
+    height: 82px;
+}
+.titulo-right {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text-right {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.theree-titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-left: 20px;
+}
+.theree-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* four */
+.section-four {
+    min-height: 100vh;
+}
