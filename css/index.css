@@ -12,12 +12,6 @@
     color: #252B42;
     font-family: 'Montserrat', sans-serif;
 }
-.espaco-lerf {
-    margin-left: 195px;
-}
-/* body {
-    justify-content: center;
-} */
 
 /* HOME */
 
@@ -30,6 +24,8 @@
     justify-content: center;
     display: flex;
     justify-items: center;
+    width: 1300px;
+    margin: 0 auto;
 }
 .logo {
     display: flex;
@@ -117,7 +113,8 @@
 /* SECTION TWO */
 
 .section-two {
-    margin-top: 200px;
+    width: 1300px;
+    margin: 0 auto;
 }
 .titulo-two {
     color: #FC724D;
@@ -137,6 +134,7 @@
     margin-left: 200px;
     margin-top: 180px;
 }
+
 /* GRID-TWO */
 
 .container-grid {
@@ -184,8 +182,12 @@
 
 
 /* theree */
+
 .section-theree {
-    margin-top: 200px;
+    padding-top: 200px;
+    padding-left: 195px;
+    width: 1300px;
+    margin: 0 auto;
 }
 .container-theree {
     display: flex;
@@ -208,7 +210,7 @@
     border-radius: 30px;
 }
 .container-text-right {
-    margin-left: 30px;
+    padding-left: 50px;
     width: 407px;
     height: 82px;
 }
@@ -247,7 +249,9 @@
 
 /* four */
 .section-four {
-    margin-top: 200px;
+    padding-top: 200px;
+    width: 1300px;
+    margin: 0 auto;
 }
 .grid-teste-four {
     display: grid;
@@ -293,8 +297,10 @@
 /* FIVE */
 
 .section-five {
-    margin-top: 200px;
-    margin-bottom: 250px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 1300px;
+    margin: 0 auto;
 }
 .container-five-one,
 .container-six-one {
@@ -498,6 +504,8 @@
 .section-six {
     padding-top: 150px;
     background: #26335D;
+    width: 1300px;
+    margin: 0 auto;
 }
 .subtitulo-six-one {
     color: #ffff;
@@ -511,8 +519,8 @@
 .container-grid-six-one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 195px;
     padding-bottom: 160px;
+    padding-left: 80px;
 }
 .container-grid-six-two {
     background: #FFFFFF;
@@ -531,7 +539,7 @@
     position: absolute;
     width: 189px;
     top: -36px;
-    right: 266px;
+    right: 350px;
 }
 .logo-new {
     width: 89px;
@@ -633,8 +641,10 @@
 /* SEVEN */
 
 .section-seven {
-    margin-top: 200px;
-    margin-bottom: 160px;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    width: 1300px;
+    margin: 0 auto;
 }
 .container-seven-one {
     margin-left: 195px;
