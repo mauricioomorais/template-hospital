@@ -12,6 +12,10 @@
     color: #252B42;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
 
 /* HOME */
 
@@ -21,9 +25,6 @@
 .home {
     justify-content: center;
     display: flex;
-    justify-items: center;
-    width: 1440px;
-    margin: 0 auto;
 }
 .logo {
     display: flex;
@@ -33,7 +34,6 @@
     align-items: center;
     display: flex;
     padding-top: 33px;
-    justify-content: center;
     position: absolute;
 }
 .menu {
@@ -42,7 +42,6 @@
     align-items: center;
     font-size: 14px;
     margin-left: 150px;
-    justify-content: center;
 }
 .menu li {
     color: #737373;
@@ -134,7 +133,6 @@
 /* GRID-TWO */
 
 .container-grid {
-    justify-content: center;
     text-align: left;
     margin-right: 195px;
 }
@@ -180,8 +178,6 @@
 .section-theree {
     padding-top: 200px;
     padding-left: 195px;
-    width: 1440px;
-    margin: 0 auto;
 }
 .container-theree {
     display: flex;
@@ -189,9 +185,12 @@
 .text-theree {
     margin-bottom: 96px;
 }
+.espaco-left {
+    margin-right: 124px;
+}
 .container-img-theree {
     display: flex;
-    margin-top: 25px;
+    margin-top: 40px;
     width: 266px;
     height: 61px;
     margin-left: 30px;
@@ -245,8 +244,6 @@
 
 .section-four {
     padding-top: 200px;
-    width: 1440px;
-    margin: 0 auto;
     padding-left: 195px;
 }
 .grid-four {
@@ -300,8 +297,6 @@
 .section-five {
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1440px;
-    margin: 0 auto;
 }
 .container-five-one,
 .container-six-one {
@@ -506,8 +501,6 @@
 .section-six {
     padding-top: 150px;
     background: #26335D;
-    width: 1440px;
-    margin: 0 auto;
 }
 .subtitulo-six-one {
     color: #ffff;
@@ -643,8 +636,6 @@
 .section-seven {
     padding-top: 100px;
     padding-bottom: 160px;
-    width: 1440px;
-    margin: 0 auto;
 }
 .container-seven-one {
     margin-left: 195px;
@@ -669,7 +660,7 @@
 .container-seven-name {
     margin-top: 35px;
     display: flex;
-    align-items: center;
+    margin-left: 20%;
 }
 .container-seven-name-two {
     margin-left: 15px;
