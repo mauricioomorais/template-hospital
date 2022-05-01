@@ -833,10 +833,10 @@ body {
     .grid-five-img,
     .container-grid-six-two,
     .titulo-rodape {
-        margin-top: 50px;
+        margin: 0 0 50px;
     }
     .button-four {
-        margin-bottom: 50px;
+        margin: 0 0 50px;
     }
     .text-grid-five {
         width: 400px;
@@ -846,7 +846,7 @@ body {
         top: 959px;
     }
     .button-grid-five {
-        margin-bottom: 10px;
+        margin: 0 0 10px;
     }
     .container-seven-grid {
         height: auto;
@@ -858,7 +858,7 @@ body {
     .sextion-eight,
     .subtitulo-eight,
     .text-eight {
-        margin-left: 195px;
+        margin: 0 0 10px 195px;
         text-align: left;
     }
     .email {
