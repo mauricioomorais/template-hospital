@@ -13,7 +13,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    width: 1440px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -55,7 +55,8 @@ body {
 .login button:hover,
 .menu-two button:hover,
 .button-grid-five:hover,
-.grid-six-button:hover {
+.grid-six-button:hover,
+.menu a li:hover {
     -webkit-transform: scale(0.5);
     -ms-transform: scale(0.9);
     transform: scale(1.1);
@@ -727,7 +728,7 @@ body {
     border-radius: 5px;
 }
 
-.botão {
+.button-rodape {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -743,6 +744,11 @@ body {
     letter-spacing: 0.2px;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
+}
+.button-rodape:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.9);
+    transform: scale(1.1);
 }
 
 /* RODAPÉ */
@@ -779,6 +785,13 @@ body {
     display: flex;
     align-items: center;
 }
+.rodape ul li:hover,
+.container-img-roda-two a img:hover {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.9);
+    transform: scale(1.1);
+}
+
 /* RODAPÉ TWO */
 
 .container-rodape-two {
@@ -802,6 +815,65 @@ body {
 }
 
 
+@media (max-width: 1000px) {
+    .grid,
+    .grid-four,
+    .container-grid-five,
+    .container-grid-six-one,
+    .container-seven-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .rodape {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container-theree {
+        display: inline-block;
+    }
+    .titulo-right,
+    .grid-five-img,
+    .container-grid-six-two,
+    .titulo-rodape {
+        margin-top: 50px;
+    }
+    .button-four {
+        margin-bottom: 50px;
+    }
+    .text-grid-five {
+        width: 400px;
+    }
+    .container-logo {
+        width: 570px;
+        top: 959px;
+    }
+    .button-grid-five {
+        margin-bottom: 10px;
+    }
+    .container-seven-grid {
+        height: auto;
+        gap: 50px
+    }
+    .container-seven-one {
+        width: 500px;
+    }
+    .sextion-eight,
+    .subtitulo-eight,
+    .text-eight {
+        margin-left: 195px;
+        text-align: left;
+    }
+    .email {
+        width: 453px;
+    }
+    .container-img-roda-two {
+        padding-left: 150px;
+    }
 
+}
+@media (max-width: 800px) {
+    .rodape {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
 
 
