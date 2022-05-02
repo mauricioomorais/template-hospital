@@ -509,6 +509,8 @@ body {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    width: 1400px;
+    margin: 0 auto;
 }
 .container-grid-six-one {
     display: grid;
@@ -516,6 +518,9 @@ body {
     padding-bottom: 160px;
     padding-left: 195px;
     padding-right: 195px;
+    gap: 30px;
+    width: 1400px;
+    margin: 0 auto;
 }
 .container-grid-six-two {
     background: #FFFFFF;
@@ -529,7 +534,7 @@ body {
 }
 .container-logo {
     position: absolute;
-    width: 288px;
+    width: 229px;
     top: -36px;
     right: 350px;
 }
@@ -815,7 +820,7 @@ body {
 }
 
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .grid,
     .grid-four,
     .container-grid-five,
