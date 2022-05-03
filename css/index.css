@@ -174,7 +174,7 @@ body {
 }
 
 
-/* theree */
+/* SECTION theree */
 
 .section-theree {
     padding-top: 200px;
@@ -241,7 +241,7 @@ body {
     color: #737373;
 }
 
-/* four */
+/* SECTION four */
 
 .section-four {
     padding-top: 200px;
@@ -298,7 +298,7 @@ body {
 }
 
 
-/* FIVE */
+/* SECTION FIVE */
 
 .section-five {
     padding-top: 200px;
@@ -495,7 +495,7 @@ body {
 
 
 
-/* Six */
+/* SECTION Six */
 
 .section-six {
     padding-top: 150px;
@@ -635,7 +635,7 @@ body {
     background: #BDBDBD !important;
 }
 
-/* SEVEN */
+/* SECTION SEVEN */
 
 .section-seven {
     padding-top: 100px;
@@ -692,7 +692,7 @@ body {
     margin-top: 15px;
 }
 
-/* EIGHT */
+/* SECTION EIGHT */
 
 .sextion-eight {
    text-align: center;
@@ -756,7 +756,7 @@ body {
     transform: scale(1.1);
 }
 
-/* RODAPÉ */
+/* SECTION RODAPÉ */
 
 .rodape {
     display: grid;
@@ -797,7 +797,7 @@ body {
     transform: scale(1.1);
 }
 
-/* RODAPÉ TWO */
+/* SECTION RODAPÉ TWO */
 
 .container-rodape-two {
     margin-left: 195px;
