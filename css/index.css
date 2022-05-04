@@ -12,10 +12,10 @@
     color: #252B42;
     font-family: 'Montserrat', sans-serif;
 }
-body {
+/* body {
     width: 1400px;
     margin: 0 auto;
-}
+} */
 
 /* HOME */
 
@@ -23,6 +23,8 @@ body {
     width: 100%;
 }
 .home {
+    width: 1400px;
+    margin: 0 auto;
     justify-content: center;
     display: flex;
 }
@@ -175,6 +177,8 @@ body {
 /* SECTION theree */
 
 .section-theree {
+    width: 1400px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-left: 195px;
 }
@@ -242,6 +246,8 @@ body {
 /* SECTION four */
 
 .section-four {
+    width: 1400px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-left: 195px;
 }
@@ -298,6 +304,8 @@ body {
 /* SECTION FIVE */
 
 .section-five {
+    width: 1400px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -496,6 +504,10 @@ body {
     padding-top: 150px;
     background: #26335D;
 }
+.container-six {
+    width: 1400px;
+    margin: 0 auto;
+}
 .subtitulo-six-one {
     color: #ffff;
 }
@@ -633,6 +645,8 @@ body {
 /* SECTION SEVEN */
 
 .section-seven {
+    width: 1400px;
+    margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -691,6 +705,8 @@ body {
 
 .sextion-eight {
    text-align: center;
+   width: 1400px;
+   margin: 0 auto;
 }
 .subtitulo-eight {
     font-weight: 700;
@@ -754,11 +770,13 @@ body {
 /* SECTION RODAPÉ */
 
 .rodape {
+    width: 1400px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin-left: 195px;
-    margin-right: 195px;
-    margin-bottom: 50px;
+    padding-right: 195px;
+    padding-bottom: 50px;
+    padding-left: 195px;
 }
 .titulo-rodape {
     font-weight: 700;
@@ -795,7 +813,9 @@ body {
 /* SECTION RODAPÉ TWO */
 
 .container-rodape-two {
-    margin-left: 195px;
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 195px;
     background: #FAFAFA;
     display: flex;
     padding-bottom: 25px;
@@ -809,6 +829,7 @@ body {
 }
 .container-img-roda-two {
     padding-left: 650px;
+    padding-top: 10px;
 }
 .container-img-roda-two a {
     margin-right:  30px;
