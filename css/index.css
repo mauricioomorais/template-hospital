@@ -105,7 +105,6 @@ body {
     color: #737373 !important;
 }
 
-
 /* SECTION TWO */
 
 .section-two {
@@ -172,7 +171,6 @@ body {
 .grid-two:hover {
     box-shadow: 0 0 1em rgb(177, 175, 175);
 }
-
 
 /* SECTION theree */
 
@@ -296,7 +294,6 @@ body {
     -ms-transform: scale(1.9);
     transform: scale(1.1);
 }
-
 
 /* SECTION FIVE */
 
@@ -492,8 +489,6 @@ body {
     -ms-transform: scale(0.9);
     transform: scale(1.1);
 }
-
-
 
 /* SECTION Six */
 
@@ -880,5 +875,4 @@ body {
     }
 
 }
-
 
